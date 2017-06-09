@@ -26,9 +26,6 @@ Write a java class in a Static method to invoke an activity in the AAR file.
 Using the jar exported in Step 2 do the FFI integrations.
 Copy the AAR under Customlibs/andriod folder
 
-
-In case if there are few more dependencies to be added in build.gralde. Do use a precompile task to achieve this.
-
 Steps for AAR Integration in Kony Studio 6.5
 
 Do follow the above steps and later below is the additional step to be done for Kony Studio 6.5
@@ -39,3 +36,5 @@ Download the gradle from the below path.
 https://services.gradle.org/distributions/gradle-2.14.1-bin.zip
 
 Note: Make sure package names are different in all the 3 steps mentioned above. Until and unless it is requires ***android:name*** for your application.
+
+In case if your Android Studio Project have few more dependencies use android precompile task to add those dependencies in Kony project.
