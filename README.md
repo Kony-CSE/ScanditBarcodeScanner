@@ -1,6 +1,11 @@
+
 # ScanditBarcodeScanner
 ScanditBarcodeScanner in 6.5 and 7.2.1 Kony Studio
 This application scans the barcode using third party sdk Scandit and returns the scanned data to Kony Application
+
+Follow the below links for Integrating Scandit SDK in Android Native Project(Android Studio)
+http://docs.scandit.com/5.1/android/android-integrate.html
+https://www.scandit.com/
 
 ***Requirements***
 Steps for AAR Integration in Kony Studio 7.2.1
