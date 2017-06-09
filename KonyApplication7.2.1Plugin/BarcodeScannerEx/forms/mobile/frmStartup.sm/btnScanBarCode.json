@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "64dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s93affea71fe45c983349ceb092c4409",
+    "_text_": "Scan Barcode",
+    "_top_": {
+        "type": "string",
+        "value": "301dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s11d820db2b34104883b721a21fc177c",
+    "id": "btnScanBarCode",
+    "ide_onClick": "AS_Button_2042221800744d168a619be70211f1de",
+    "info": null,
+    "isvisible": true,
+    "kuid": "7c5433a136514dd7910113e99027a030",
+    "name": "kony.ui.Button",
+    "parent": "frmStartup",
+    "pf": "frmStartup",
+    "wType": "Button",
+    "zindex": 1
+}

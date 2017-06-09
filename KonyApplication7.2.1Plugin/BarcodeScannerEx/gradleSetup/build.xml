@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="$APPID" default="help">
+
+    <loadproperties srcFile="local.properties" />
+    <property file="ant.properties" />
+
+    <loadproperties srcFile="project.properties" />
+	<!--Update gradleCMD value to appropriate gradle-2.4 version binary path in your machine-->
+	<!--property name="gradleCMD" value="/Users/User1/gradle/bin/gradle"/-->
+    <property name="gradleCMD" value="C:\gradle-2.4\bin\gradle.bat"/>
+    <!-- quick check on sdk.dir -->
+    <fail
+            message="sdk.dir is missing. Make sure to generate local.properties using 'android update project'"
+            unless="sdk.dir"
+    />
+	<target name="clean">
+		<echo message="invoking ${gradleCMD} clean" />
+		<exec executable="${gradleCMD}" failonerror="true" failifexecutionfails="true" >
+			<arg  line="clean -b build.gradle" />
+		</exec>
+    </target>
+    <target name="debug">
+		<echo message="invoking ${gradleCMD} assembleDebug" />
+		<exec executable="${gradleCMD}" failonerror="true" failifexecutionfails="true" >
+			<arg  line="assembleDebug  -b build.gradle" />
+		</exec>
+    </target>
+    <target name="release">
+		<echo message="invoking ${gradleCMD} assembleRelease" />
+		<exec executable="${gradleCMD}" failonerror="true" failifexecutionfails="true" >
+			<arg  line="assembleRelease  -b build.gradle" />
+		</exec>
+    </target>
+</project>

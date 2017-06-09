@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="ScanditKony" name="ScanditKony">
+    <container isflex="false" displayname="Form" id="frmStartup" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
