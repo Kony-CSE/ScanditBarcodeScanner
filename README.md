@@ -1,6 +1,8 @@
 # ScanditBarcodeScanner
 ScanditBarcodeScanner in 6.5 and 7.2.1 Kony Studio
+This application scans the barcode using third party sdk Scandit and returns the scanned data to Kony Application
 
+***Requirements****
 Steps for AAR Integration in Kony Studio 7.2.1
 
 ***Step 1***
@@ -38,3 +40,9 @@ https://services.gradle.org/distributions/gradle-2.14.1-bin.zip
 Note: Make sure package names are different in all the 3 steps mentioned above. Until and unless it is requires ***android:name*** for your application.
 
 In case if your Android Studio Project have few more dependencies use android precompile task to add those dependencies in Kony project.
+
+***Supported Channels***
+Android
+
+***Supported Version***
+Kony Studio 6.5 and above.
