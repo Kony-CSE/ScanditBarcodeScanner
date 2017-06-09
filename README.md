@@ -2,7 +2,7 @@
 ScanditBarcodeScanner in 6.5 and 7.2.1 Kony Studio
 This application scans the barcode using third party sdk Scandit and returns the scanned data to Kony Application
 
-***Requirements****
+***Requirements***
 Steps for AAR Integration in Kony Studio 7.2.1
 
 ***Step 1***
